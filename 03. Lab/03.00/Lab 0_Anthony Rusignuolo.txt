@@ -1,0 +1,62 @@
+﻿Anthony Rusignuolo
+CS 115B (Intro to Comp Sci)
+Lab 0
+I pledge my honor that I have abided by the Stevens Honor System.
+09/01/17
+
+
+Map 1
+
+
+Fix this so that it will also work on the north wall
+
+
+0 *x** -> E 0 #gets me to the east wall
+0 *E** -> N 1 #moves north 1 space
+
+
+1 x*** -> N 1 #gets me to the north wall
+1 N*** -> W 2 #moves west 1 space
+
+
+2 **x* -> W 2 #gets me to the west wall
+2 **W* -> S 3 #moves south 1 space
+
+
+3 *x** -> E 3
+3 *E** -> S 2
+
+
+#3 ***x -> S 3 #gets me to the south wall
+#3 ***S -> E 0 #moves east 1 space
+
+
+Map 2
+
+
+#0 facing north
+0 *x** -> E 1
+0 xE** -> N 0
+0 NEx* -> W 3
+0 NEWx -> S 2
+
+
+#1 facing east
+1 ***x -> S 2
+1 *x*S -> E 1
+1 xE*S -> N 0
+1 NExS -> W 3
+
+
+#2 facing south
+2 **x* -> W 3
+2 **Wx -> S 2
+2 *xWS -> E 1
+2 xEWS -> N 0
+
+
+#3 facing west
+3 x*** -> N 0
+3 N*x* -> W 3
+3 N*Wx -> S 2
+3 NxWS -> E 1

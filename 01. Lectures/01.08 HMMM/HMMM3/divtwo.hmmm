@@ -1,0 +1,13 @@
+#divtwo.hmmm
+#Anthony Rusignuolo - October 19, 2017
+#compute the flor(x/y)
+0	read r1		#read the dividend from the user
+1	write r1	#echo the input
+2	read r2		#read the divisor from the user
+3	write r2	# echo the input
+4	jeqzn r2 7	#jump to line 7 if trying to divide by 0
+5	div r3 r1 r2	#divide the users parameters
+6	jump 8		#go to line 8
+7	set r3 0	#0 is the result for division by 0
+8	write r3	#prints r3
+9	halt
